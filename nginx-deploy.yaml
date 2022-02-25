@@ -13,7 +13,7 @@ spec:
         run: nginx-deploy
     spec:
       containers:
-      - image: chyeondori/test:html
+      - image: chyeondori/app:v1
         name: test
         ports:
         - containerPort: 80
